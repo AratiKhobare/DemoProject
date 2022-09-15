@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoProjectSuite" duration-ms="156936" started-at="2022-09-12T16:02:12 IST" finished-at="2022-09-12T16:04:49 IST">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_Registration.test_Registration()[pri:0, instance:testCase.TC_001_Registration@37374a5e]" name="test_Registration" class="testCase.TC_001_Registration"/>
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCase.TC_002_Login@192d3247]" name="test_Login" class="testCase.TC_002_Login"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCase.TC_002_Login@192d3247]" name="test_Login" class="testCase.TC_002_Login"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_Registration.test_Registration()[pri:0, instance:testCase.TC_001_Registration@37374a5e]" name="test_Registration" class="testCase.TC_001_Registration"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="156936" started-at="2022-09-12T16:02:12 IST" finished-at="2022-09-12T16:04:49 IST">
+      <class name="testCase.TC_001_Registration">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCase.TC_001_Registration@37374a5e]" name="setup" is-config="true" duration-ms="71356" started-at="2022-09-12T16:02:13 IST" finished-at="2022-09-12T16:03:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Registration()[pri:0, instance:testCase.TC_001_Registration@37374a5e]" name="test_Registration" duration-ms="62790" started-at="2022-09-12T16:03:25 IST" finished-at="2022-09-12T16:04:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Registration -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCase.TC_001_Registration@37374a5e]" name="teardown" is-config="true" duration-ms="1833" started-at="2022-09-12T16:04:27 IST" finished-at="2022-09-12T16:04:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCase.TC_001_Registration -->
+      <class name="testCase.TC_002_Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCase.TC_002_Login@192d3247]" name="setup" is-config="true" duration-ms="8466" started-at="2022-09-12T16:04:29 IST" finished-at="2022-09-12T16:04:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Login()[pri:0, instance:testCase.TC_002_Login@192d3247]" name="test_Login" duration-ms="10354" started-at="2022-09-12T16:04:38 IST" finished-at="2022-09-12T16:04:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCase.TC_002_Login@192d3247]" name="teardown" is-config="true" duration-ms="1166" started-at="2022-09-12T16:04:48 IST" finished-at="2022-09-12T16:04:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCase.TC_002_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- DemoProjectSuite -->
+</testng-results>
